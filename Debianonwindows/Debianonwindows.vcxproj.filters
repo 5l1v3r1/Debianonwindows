@@ -10,6 +10,12 @@
     <Filter Include="Resource\icon">
       <UniqueIdentifier>{3dacd972-5baf-42dd-bc09-29afc788897e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{23fc2ebe-70bd-4d0c-9801-7ba424b329ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Device">
+      <UniqueIdentifier>{9b55b984-3d80-4053-aba6-f75982ea1c09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,12 +27,18 @@
     <ClInclude Include="resource.h">
       <Filter>System</Filter>
     </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Library\Device</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>System</Filter>
     </ClCompile>
     <ClCompile Include="Debianonwindows.cpp" />
+    <ClCompile Include="Device.cpp">
+      <Filter>Library\Device</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\..\Desktop\images.ico">
