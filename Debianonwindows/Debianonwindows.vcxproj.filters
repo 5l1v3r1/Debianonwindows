@@ -18,7 +18,9 @@
     <ClInclude Include="targetver.h">
       <Filter>System</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource.h">
+      <Filter>System</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
